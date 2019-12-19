@@ -3,25 +3,25 @@
 Go to laravel project folder
 
 ```console
-$ cd path/to/laravel/project
+cd path/to/laravel/project
 ```
 
 Clone the laradock repository in github
 
 ```console
-$ git clone https://github.com/laradock/laradock.git
+git clone https://github.com/laradock/laradock.git
 ```
 
 Enter in laradock folder
 
 ```console
-$ cd laradock
+cd laradock
 ```
 
 Copy the `env-example` file with name `.env`
 
 ```console
-$ cp env-example .env
+cp env-example .env
 ```
 
 In `.env` file change the `COMPOSE_PROJECT_NAME`, `NGINX_HOST_HTTP_PORT`, `MYSQL_PORT`, `WORKSPACE_SSH_PORT` like below
@@ -68,13 +68,13 @@ WORKSPACE_SSH_PORT=EXAMPLE_PORT
 Inside laradock folder run the code below to up docker containers
 
 ```console
-$ sudo docker-compose up -d nginx mysql
+sudo docker-compose up -d nginx mysql
 ```
 
 To see if the containers is up run the code below
 
 ```console
-$ sudo docker-compose ps
+sudo docker-compose ps
 ```
 
 
@@ -85,13 +85,13 @@ $ sudo docker-compose ps
 Install the composer dependencies
 
 ```console
-$ composer install
+composer install
 ```
 
 Install the node dependencies
 
 ```console
-$ npm install
+npm install
 ```
 
 
@@ -104,13 +104,13 @@ Copy the `.env.example` with name `.env`
 ```console
 *NOTE: you must be in the poject folder
 
-$ cp .env.example .env
+cp .env.example .env
 ```
 
 Gerenate the `APP_KEY`
 
 ```console
-$ php artisan key:generate
+php artisan key:generate
 ```
 
 Inside the .env change the `APP_NAME` to the project name
@@ -168,5 +168,5 @@ Create the database tables with the code below
 **You must be in the project folder**
 
 ```console
-$ php artisan migrate
+php artisan migrate
 ```
