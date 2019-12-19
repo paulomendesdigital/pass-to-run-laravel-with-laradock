@@ -90,7 +90,7 @@ $ composer install
 
 Install the node dependencies
 
-```
+```console
 npm install
 ```
 
@@ -167,6 +167,6 @@ Create the database tables with the code below
 
 **You must be in the project folder**
 
-```
+```console
 php artisan migrate
 ```
