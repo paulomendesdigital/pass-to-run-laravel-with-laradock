@@ -6,6 +6,14 @@ Go to laravel project folder
 cd path/to/laravel/project
 ```
 
+Change the permition of the `storage` and `bootstrap/cache`
+
+```
+sudo chmod 777 storage
+
+sudo chmod 777 bootstrap/cache
+```
+
 Clone the laradock repository in github
 
 ```console
