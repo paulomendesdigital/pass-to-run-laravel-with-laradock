@@ -91,7 +91,11 @@ sudo docker-compose ps
 
 ## Project config
 
-**NOTE: to the pass below you must be in the project folder**
+Run the code below to enter in workspace
+
+```console
+sudo docker-compose exec --user=laradock workspace bash
+```
 
 Install the composer dependencies
 
@@ -107,8 +111,6 @@ npm install
 
 
 ## .env configuration
-
-**You must be in the project folder**
 
 Copy the `.env.example` with name `.env`
 
@@ -173,8 +175,6 @@ MAIL_COPY_ADDRESS=COPY_MAIL_THAT_WILL_RECIVE_THE_CONTACT_MESSAGE
 ## DB
 
 Create the database tables with the code below
-
-**You must be in the project folder**
 
 ```console
 php artisan migrate
