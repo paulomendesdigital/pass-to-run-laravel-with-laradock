@@ -102,8 +102,6 @@ npm install
 Copy the `.env.example` with name `.env`
 
 ```console
-*NOTE: you must be in the poject folder
-
 cp .env.example .env
 ```
 
