@@ -40,6 +40,9 @@ to
 COMPOSE_PROJECT_NAME=PROJEC_NAME
 
 
+*NOTE: PROJEC_NAME must be the name of a phoject. Example: company
+
+
 ---------------------------------------------------------------------------
 
 
