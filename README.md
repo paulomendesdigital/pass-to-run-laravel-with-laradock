@@ -143,7 +143,7 @@ DB_USERNAME=root
 DB_PASSWORD=root
 
 
-*NOTE: the DATABASE_NAME must be the name of data base that you choose
+*NOTE: DATABASE_NAME must be the name of data base that you choose
 ```
 
 Configure MAIL with the info below
@@ -160,13 +160,13 @@ MAIL_CONTACT_ADDRESS=MAIL_THAT_WILL_RECIVE_THE_CONTACT_MESSAGE
 MAIL_COPY_ADDRESS=COPY_MAIL_THAT_WILL_RECIVE_THE_CONTACT_MESSAGE
 
 
-*NOTE: the COMPANY_NAME must be the company name. Example: 'Company X'
+*NOTE: COMPANY_NAME must be the company name. Example: 'Company X'
 
-*NOTE: the ENCRYPTION_FROM_HOST must be the encryption from host. Example: ssl, tls
+*NOTE: ENCRYPTION_FROM_HOST must be the encryption from host. Example: ssl, tls
 
 *NOTE2: the MAIL_THAT_WILL_RECIVE_THE_CONTACT_MESSAGE must be the mail tha will recive the contact message: Example: 'mail@mail.com'
 
-*NOTE3: the COPY_MAIL_THAT_WILL_RECIVE_THE_CONTACT_MESSAGE must be the mail tha will copied in the contact message
+*NOTE3: COPY_MAIL_THAT_WILL_RECIVE_THE_CONTACT_MESSAGE must be the mail tha will copied in the contact message
 ```
 
 
