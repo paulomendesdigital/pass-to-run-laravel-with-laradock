@@ -46,7 +46,7 @@ COMPOSE_PROJECT_NAME=PROJEC_NAME
 ---------------------------------------------------------------------------
 
 
-NGINX_HOST_HTTP_PORT=100
+NGINX_HOST_HTTP_PORT=80
 to
 NGINX_HOST_HTTP_PORT=EXAMPLE_PORT
 
@@ -57,7 +57,7 @@ NGINX_HOST_HTTP_PORT=EXAMPLE_PORT
 ---------------------------------------------------------------------------
 
 
-MYSQL_PORT=5306
+MYSQL_PORT=3306
 to
 MYSQL_PORT=EXAMPLE_PORT
 
@@ -68,7 +68,7 @@ MYSQL_PORT=EXAMPLE_PORT
 ---------------------------------------------------------------------------
 
 
-WORKSPACE_SSH_PORT=3333
+WORKSPACE_SSH_PORT=2222
 to
 WORKSPACE_SSH_PORT=EXAMPLE_PORT
 
