@@ -51,7 +51,7 @@ to
 NGINX_HOST_HTTP_PORT=EXAMPLE_PORT
 
 
-*NOTE: EXAMPLE_PORT must be a number of a port of your choice
+*NOTE: EXAMPLE_PORT must be a number between 5001 and 6000
 
 
 ---------------------------------------------------------------------------
@@ -62,7 +62,7 @@ to
 MYSQL_PORT=EXAMPLE_PORT
 
 
-*NOTE: EXAMPLE_PORT must be a number of a port of your choice
+*NOTE: EXAMPLE_PORT must be a number between 6001 and 7000
 
 
 ---------------------------------------------------------------------------
@@ -73,7 +73,7 @@ to
 WORKSPACE_SSH_PORT=EXAMPLE_PORT
 
 
-*NOTE: EXAMPLE_PORT must be a number of a port of your choice
+*NOTE: EXAMPLE_PORT must be a number between 2001 3000
 ```
 
 Inside laradock folder run the code below to up docker containers
