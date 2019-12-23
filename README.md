@@ -82,7 +82,7 @@ Inside laradock folder run the code below to up docker containers
 sudo docker-compose up -d nginx mysql
 ```
 
-**OPTIONAL:** to see if the containers is up run the code below
+**Optional:** to see if the containers is up run the code below
 
 ```console
 sudo docker-compose ps
@@ -126,7 +126,7 @@ php artisan key:generate
 
 Inside the .env change the `APP_NAME` to the project name
 
-**NOTE: the APP_NAME will be displayed in the title of page in the browser**
+**Note:** the APP_NAME will be displayed in the title of page in the browser
 
 ```
 APP_NAME=Laravel
