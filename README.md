@@ -82,7 +82,7 @@ Inside laradock folder run the code below to up docker containers
 sudo docker-compose up -d nginx mysql
 ```
 
-**OPTIONAL** To see if the containers is up run the code below
+**OPTIONAL:** to see if the containers is up run the code below
 
 ```console
 sudo docker-compose ps
